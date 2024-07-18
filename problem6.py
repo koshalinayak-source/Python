@@ -1,9 +1,8 @@
-#Create an empty dict. Allow 4 friends to enter their fav language as value and use key as their names. Assume that the names are unique.
-dict={}
-for var in range(4):
-      inpKey=input("Enter your Name : ")
-      inpValue=input("Enter your fav languague of student : ")
-     # dict[inpKey]=inpValue
-      dict.update({inpKey:inpValue})
+#Write a program to calculate the factorial of a given number using loop
+fact=1
+num =int(input("Enter a number "))
 
-print(dict.items())
+for i in range(1,num+1):
+    fact=i*fact
+
+print(fact)

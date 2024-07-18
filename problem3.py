@@ -1,3 +1,6 @@
-#Can we have a set with 18(int)and "18"(str) as a value in it 
-set={18,"18"}
-print(set)
+#Attempt problem 1 using while loop
+num =int(input("Enter a number "))
+i=1
+while(i<=10):
+        print(num," * ",i," =",num*i)
+        i+=1
